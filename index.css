@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0
+    ;
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+  font-family:'Arial', sans-serif; 
+    
+   
+}
+  header{
+    width: 100%;
+    background:#000000;
+    font-family:'Arial', sans-serif;  
+    padding: 8px ;
+    
+    
+ } 
+
+ header a{
+  
+  text-decoration: none;
+  padding: 8px 15px;
+  color: white;
+  
+  
+ }
+#dropdown{
+  font-weight: bold;
+  position: absolute;
+}
+
+ .headnavigationleftsection{
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  margin-left: 6px;
+   
+  }
+
+  .uber  {
+   
+    font-size: 24px;
+    padding-top: 3px;
+    margin-right: 5px;
+     font-size: 400;
+     letter-spacing: -2px;
+     color: #fff;
+      } 
+
+  .navleftoptions  {
+    list-style: none;
+    font-size: 14px;
+   padding-top: 6px;
+   display: flex;
+   justify-content: center;
+    cursor: pointer;
+  }
+
+  .navleftoptions .navlinks :hover{
+    background: #1a1a1a;
+    border-radius: 9999px;
+  }
+  .navleftoptions .navlinks a{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+ 
+.button1{
+  background: #000;
+  color: #F6F6F6;
+  display: flex;
+ cursor: pointer;
+ padding: 10px 15px 0px;
+ height: 100%;
+}
+.navleftoptions .navabout :hover{
+  background: #1a1a1a;
+  border-radius: 9999px;
+}
+
+    .headnavigationrightsection {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      padding-left: 162px;
+      margin-top: 10px;
+      cursor: pointer;
+      
+  }
+
+    .headnavigationrightsection .logonav li{
+   height: 100%;
+   list-style: none;
+    }
+    
+    .headnavigationrightsection li :hover{
+      background: #1a1a1a;
+      border-radius: 9999px;
+    }
+
+  .headnavigationrightsection ul{
+    display: flex;
+    font-size: 14px;
+    padding-top: 4px;
+
+}
+
+
+  button{
+    background-color:  #F3F3F3;
+    border: none;
+    color: #000000;
+    padding: 10px 12px;
+   
+    text-decoration: none;
+    
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:'Arial', sans-serif; 
+    align-self: center;
+  }
+
+
+ .maintop {
+  height: 840px;
+  width: 100%;
+  background-color: #000000;
+
+ font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.maintop .container{
+display: flex;
+
+}
+
+.topleftsec{
+  width: 50%;
+  height: 100%;
+  /* float: left; */
+  padding-left: 340px;
+  padding-top: 215px;
+  
+} 
+
+.topleftsec h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+}
+.topleftsec p{
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.topleftsec .formpart{
+  font-family:  UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.topleftsec .formpart .location{
+  height: 50px;
+  display: flex;
+  background: #ffffff;
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ 
+}
+.formpart .location .icon{
+  width: 10%;
+  height: 100%;
+  padding: 16px 14px;
+  color: #000;
+  
+}
+.formpart .location .input1{
+  padding: 10px;
+  width: 70%;
+
+}
+.location .input1 input{
+  height: 30px;
+  width: 100%;
+  cursor: text;
+  border: none;
+}
+
+.location .input1 input:focus{
+  border: none;
+  outline: none;
+}
+
+
+.location .input1 input::placeholder{
+  color: #5E5E5E;
+  font-size: 16px;
+}
+.formpart .location.navigation{
+  width: 20%;
+  padding: 15px;
+  color: #000;
+ 
+}
+.formpart .location .navigation svg{
+  height: 45px;
+  width: 25px;
+  margin-left: 37px;
+}
+
+.formpart .location .input2{
+  padding: 10px;
+  width: 70%;
+
+}
+.location .input2 input{
+  height: 30px;
+  width: 100%;
+  cursor: text;
+  border: none;
+}
+.location .input2 input:focus{ /* When click the text field does'nt show any border or default outline */
+  border: none;
+  outline: none;
+}
+.location .input2 input::placeholder{
+  color: #5E5E5E;
+  font-size: 16px;
+}
+.formpart .leftline{
+  width: 50px;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  top: -26px;
+  left: 23px;
+  border-left: 1px solid #f7f4ee;
+  color: #000;
+}
+/* 
+.topleftsec .button{
+  margin-top: 10px;
+  width: 130px;
+  line-height: 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+.formpart .price_button{
+  padding: 0px 0px 30px;
+  position: relative;
+  top: -25px;
+
+}
+.formpart .price_button button{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 8px;
+  border: none;
+  color: #000;
+  background-color: #FFFFFF;
+}
+.toprightsec .image{
+  margin-top: 59px;
+  margin-left: 21px;
+
+}
+/* -----------------------MAIN MIDDLE----------- */
+.mainmiddle{
+  background: #fff;
+  width: 100%;
+  
+ height: 92vh;
+ /* color: #F3F3F3; */
+ font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* display: flex; */
+}
+.middleleftsec{
+  
+  width: 50%;
+  float: left;
+  padding-left: 365px;
+}
+
+.middlerightsec{
+  float: left;
+  width: 50%;
+ padding-top: 162px;
+ padding-left: 120px;
+
+}
+
+ .leftimage1{
+  padding-top: 64px;
+  
+}
+
+.rightimage2{
+  padding-top: 223px;
+  margin-left: -80px;
+}
+
+#middleleftsec_h1{
+  color: #333333;
+  padding-top: 223px;
+}
+
+
+.mainmiddle_paragraph .article_colorchange{
+  color: #333333;
+}
+.leftimage2{
+  padding-top: 223px;
+  padding-bottom: 64px;
+}
+
+.main_headings{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 32px;
+ }
+ .mainmiddle_paragraph{
+  color: currentColor;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  margin-bottom: 20px;
+ }
+
+ .get-started-button{
+color: #F3F3F3;
+background-color: #000000;
+margin-top: 10px;
+width: 132px;
+line-height: 30px;
+border-radius: 8px;
+font-size: 16px;
+font-weight: bold;
+ }
+  .signinsec1{
+  padding-left: 24px;
+  padding-top:25px ;
+
+  background-repeat: no-repeat;
+  padding-bottom: 6px;
+  text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #dfd4d4;
+ }
+.main_endsec{
+
+  width: 100%;
+  background-color:  #F6F6F6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 41vh; 
+  overflow: hidden;
+  z-index: 0;
+}
+ 
+.qr_box_logo{
+  position: absolute;
+  padding-left: 340px;
+  transition: all 400ms ease !important;
+  width: 20px;
+ 
+}
+ .endleftsec{
+  width: 50%;
+  float: left;
+  padding-left: 370px;
+margin-bottom: 50px;
+ }
+
+ .endrightsec{
+  width: 50%;
+  float: left;
+  padding-left: 45px;
+  margin-bottom: 50px;
+ }
+
+.main_endsec h1{
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-left: 370px; 
+    padding-top: 64px; 
+}
+
+.qr_box1{
+  margin-top: 30px;
+  display:flex;
+  -ms-flex-item-align: right;
+  width: 57vh;
+  padding: 24px 24px;
+  height: auto;
+background:#FFFFFF; 
+
+}
+
+.qr_box{
+  margin-top: 30px;
+  display:flex;
+  width: 57vh;
+  padding: 24px 24px;
+  height: auto;
+background:#FFFFFF; 
+
+}
+
+.qr_boxpara{
+  padding-left: 15px;
+  line-height: 25px;
+  padding-top: 50px;
+
+}
+footer .container{
+  /* margin-top: 30px; */
+  
+  /* height: auto; */
+  background-color: #000000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+.footer{
+  max-width: 1152px;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 30px;
+    width: 100%;
+    color: #F6F6F6;
+}
+.footer_details{
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 14px;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 70px;
+}
+
+
+.footerlogo_leftsec{
+width: 50%;
+float: left;
+align-items: center;
+display: flex;
+justify-content: space-between;
+
+}
+
+.footerlogo_rightsec{
+width: 50%;
+ float: left;
+display: flex;
+justify-content: end; 
+padding-left: 50px; 
+}
+.footerimageleft
+{
+  width: 100%;
+  float: left;
+  display: flex;
+  padding-bottom: 60px;
+ 
+}
+
+.footerimage{
+  
+  padding-top: 64px;
+  width: 125px;
+ 
+}
+.footer_endline{
+  /* padding-bottom: 50px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #AFAFAF;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  /* height: 60px; */
+  
+}
